@@ -1,12 +1,12 @@
-package com.ganesh.springboot;
+package com.devopsbuddy;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class SpringDataRestApplication {
+public class Application {
 
 	public static void main(String[] args) {
-		SpringApplication.run(SpringDataRestApplication.class, args);
+		SpringApplication.run(Application.class, args);
 	}
 }
